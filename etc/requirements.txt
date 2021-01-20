@@ -11,7 +11,7 @@ Logbook==0.12.5
 pytz==2016.4
 
 # FF: Upgraded numpy because of errors with version 1.11
-numpy==1.14.0
+numpy==1.16.3
 
 # for pandas-datareader
 requests-file==1.4.3
@@ -64,7 +64,7 @@ multipledispatch==0.4.9
 MarkupSafe==1.0
 Mako==1.0.7
 # Asset writer and finder
-sqlalchemy==1.2.2
+sqlalchemy==1.2.18
 # For asset db management
 alembic==0.9.7
 
@@ -88,3 +88,4 @@ boto3==1.5.27
 redo==2.0.1
 web3==4.4.1; python_version > '3.4'
 requests-toolbelt==0.8.0
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
