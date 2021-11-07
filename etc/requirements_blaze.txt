@@ -12,3 +12,4 @@ MarkupSafe==1.0
 psutil==4.3.0
 
 -e git://github.com/quantopian/blaze.git@310605323449e375e81a0cf04011c507cd126ef6#egg=blaze-dev
+dask>=2021.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
