@@ -61,3 +61,4 @@ piprot==0.9.6
 
 # For mocking out requests fetches
 responses==0.4.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
