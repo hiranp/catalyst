@@ -1,7 +1,7 @@
 # Incompatible with earlier PIP versions
 pip>=7.1.0
 # bcolz fails to install if this is not in the build_requires.
-setuptools==38.5.1
+setuptools==65.5.1
 
 # Logging
 Logbook==0.12.5
@@ -88,3 +88,7 @@ boto3==1.5.27
 redo==2.0.1
 web3==4.4.1; python_version > '3.4'
 requests-toolbelt==0.8.0
+eth-account>=0.5.9 # not directly required, pinned by Snyk to avoid a vulnerability
+eth-keyfile>=0.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
+websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
